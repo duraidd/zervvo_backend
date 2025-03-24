@@ -34,7 +34,6 @@ const petSchema = new mongoose.Schema({
     image: { 
         type:String
     },
-    //more keys to be added:img (https://reactjs.org/docs/forms.html#the-file-input-tag), species, breed, owner name
 });
 
 export default mongoose.model("Pet", petSchema);
